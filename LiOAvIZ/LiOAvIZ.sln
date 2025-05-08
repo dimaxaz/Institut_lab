@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LiOAvIZ_1.5(struct)", "LiOA
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LiOAvIZ_2", "LiOAvIZ_2\LiOAvIZ_2.vcxproj", "{EED7A85E-DFEB-4F5E-ACB7-9EF86B7479ED}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LiOAvIZ_2.2(sort)", "LiOAvIZ_2.2(sort)\LiOAvIZ_2.2(sort).vcxproj", "{FB963855-4C13-49F1-9672-FDE48AE918D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{EED7A85E-DFEB-4F5E-ACB7-9EF86B7479ED}.Release|x64.Build.0 = Release|x64
 		{EED7A85E-DFEB-4F5E-ACB7-9EF86B7479ED}.Release|x86.ActiveCfg = Release|Win32
 		{EED7A85E-DFEB-4F5E-ACB7-9EF86B7479ED}.Release|x86.Build.0 = Release|Win32
+		{FB963855-4C13-49F1-9672-FDE48AE918D3}.Debug|x64.ActiveCfg = Debug|x64
+		{FB963855-4C13-49F1-9672-FDE48AE918D3}.Debug|x64.Build.0 = Debug|x64
+		{FB963855-4C13-49F1-9672-FDE48AE918D3}.Debug|x86.ActiveCfg = Debug|Win32
+		{FB963855-4C13-49F1-9672-FDE48AE918D3}.Debug|x86.Build.0 = Debug|Win32
+		{FB963855-4C13-49F1-9672-FDE48AE918D3}.Release|x64.ActiveCfg = Release|x64
+		{FB963855-4C13-49F1-9672-FDE48AE918D3}.Release|x64.Build.0 = Release|x64
+		{FB963855-4C13-49F1-9672-FDE48AE918D3}.Release|x86.ActiveCfg = Release|Win32
+		{FB963855-4C13-49F1-9672-FDE48AE918D3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
