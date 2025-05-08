@@ -1,4 +1,6 @@
 #include<iostream>
+#include<ctime>
+
 
 using namespace std;
 
@@ -8,8 +10,8 @@ int main() {
 	cin >> size;
 
 	int* dynamicArray{ new int[size] };
-	for (int i = 0; i < size; ++i) 
-		cin >> dynamicArray[i];
+	for (int i = 0; i < size; ++i)
+		dynamicArray[i] = rand() % 10;
 
 	struct ArrayWrapper {
 		int* begin_;
@@ -23,17 +25,18 @@ int main() {
 	int min = *wrapper.begin();
 	int max = *wrapper.begin();
 
-		for (int num : wrapper) {
+	for (int num : wrapper) {
+		cout << num << " ";
 
-			if (num < min)
-				min = num;
+		if (num < min)
+			min = num;
 
-			if (num > max)
-				max = num;
-		}
-		cout << "min = " << min << 
-				"\nmax = " << max << endl;
+		if (num > max)
+			max = num;
+	}
+	cout << "\n min = " << min <<
+		"\n max = " << max << endl;
 
-		delete[] dynamicArray;
-		return 0;
+	delete[] dynamicArray;
+	return 0;
 }
