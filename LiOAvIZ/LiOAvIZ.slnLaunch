@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "LiOAvLZ_1\\LiOAvLZ_1.vcxproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "LiOAvIZ_1.5(struct)\\LiOAvIZ_1.5(struct).vcxproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
